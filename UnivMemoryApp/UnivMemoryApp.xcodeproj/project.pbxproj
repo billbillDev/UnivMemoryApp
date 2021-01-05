@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B4435A25A44950005114BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4435925A44950005114BA /* AppDelegate.swift */; };
+		09B4435C25A44950005114BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4435B25A44950005114BA /* SceneDelegate.swift */; };
+		09B4435E25A44950005114BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4435D25A44950005114BA /* ViewController.swift */; };
+		09B4436125A44950005114BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B4435F25A44950005114BA /* Main.storyboard */; };
+		09B4436425A44950005114BA /* UnivMemoryApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09B4436225A44950005114BA /* UnivMemoryApp.xcdatamodeld */; };
+		09B4436625A44952005114BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B4436525A44952005114BA /* Assets.xcassets */; };
+		09B4436925A44952005114BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B4436725A44952005114BA /* LaunchScreen.storyboard */; };
+		09B4437425A44952005114BA /* UnivMemoryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4437325A44952005114BA /* UnivMemoryAppTests.swift */; };
+		09B4437F25A44952005114BA /* UnivMemoryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4437E25A44952005114BA /* UnivMemoryAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09B4437025A44952005114BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09B4434E25A44950005114BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09B4435525A44950005114BA;
+			remoteInfo = UnivMemoryApp;
+		};
+		09B4437B25A44952005114BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09B4434E25A44950005114BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09B4435525A44950005114BA;
+			remoteInfo = UnivMemoryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09B4435625A44950005114BA /* UnivMemoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnivMemoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B4435925A44950005114BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09B4435B25A44950005114BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09B4435D25A44950005114BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09B4436025A44950005114BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09B4436325A44950005114BA /* UnivMemoryApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnivMemoryApp.xcdatamodel; sourceTree = "<group>"; };
+		09B4436525A44952005114BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B4436825A44952005114BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09B4436A25A44952005114BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B4436F25A44952005114BA /* UnivMemoryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnivMemoryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B4437325A44952005114BA /* UnivMemoryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnivMemoryAppTests.swift; sourceTree = "<group>"; };
+		09B4437525A44952005114BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B4437A25A44952005114BA /* UnivMemoryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnivMemoryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B4437E25A44952005114BA /* UnivMemoryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnivMemoryAppUITests.swift; sourceTree = "<group>"; };
+		09B4438025A44952005114BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B4435325A44950005114BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B4436C25A44952005114BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B4437725A44952005114BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B4434D25A44950005114BA = {
+			isa = PBXGroup;
+			children = (
+				09B4435825A44950005114BA /* UnivMemoryApp */,
+				09B4437225A44952005114BA /* UnivMemoryAppTests */,
+				09B4437D25A44952005114BA /* UnivMemoryAppUITests */,
+				09B4435725A44950005114BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09B4435725A44950005114BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B4435625A44950005114BA /* UnivMemoryApp.app */,
+				09B4436F25A44952005114BA /* UnivMemoryAppTests.xctest */,
+				09B4437A25A44952005114BA /* UnivMemoryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B4435825A44950005114BA /* UnivMemoryApp */ = {
+			isa = PBXGroup;
+			children = (
+				09B4435925A44950005114BA /* AppDelegate.swift */,
+				09B4435B25A44950005114BA /* SceneDelegate.swift */,
+				09B4435D25A44950005114BA /* ViewController.swift */,
+				09B4435F25A44950005114BA /* Main.storyboard */,
+				09B4436525A44952005114BA /* Assets.xcassets */,
+				09B4436725A44952005114BA /* LaunchScreen.storyboard */,
+				09B4436A25A44952005114BA /* Info.plist */,
+				09B4436225A44950005114BA /* UnivMemoryApp.xcdatamodeld */,
+			);
+			path = UnivMemoryApp;
+			sourceTree = "<group>";
+		};
+		09B4437225A44952005114BA /* UnivMemoryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				09B4437325A44952005114BA /* UnivMemoryAppTests.swift */,
+				09B4437525A44952005114BA /* Info.plist */,
+			);
+			path = UnivMemoryAppTests;
+			sourceTree = "<group>";
+		};
+		09B4437D25A44952005114BA /* UnivMemoryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09B4437E25A44952005114BA /* UnivMemoryAppUITests.swift */,
+				09B4438025A44952005114BA /* Info.plist */,
+			);
+			path = UnivMemoryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B4435525A44950005114BA /* UnivMemoryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B4438325A44952005114BA /* Build configuration list for PBXNativeTarget "UnivMemoryApp" */;
+			buildPhases = (
+				09B4435225A44950005114BA /* Sources */,
+				09B4435325A44950005114BA /* Frameworks */,
+				09B4435425A44950005114BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnivMemoryApp;
+			productName = UnivMemoryApp;
+			productReference = 09B4435625A44950005114BA /* UnivMemoryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09B4436E25A44952005114BA /* UnivMemoryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B4438625A44952005114BA /* Build configuration list for PBXNativeTarget "UnivMemoryAppTests" */;
+			buildPhases = (
+				09B4436B25A44952005114BA /* Sources */,
+				09B4436C25A44952005114BA /* Frameworks */,
+				09B4436D25A44952005114BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B4437125A44952005114BA /* PBXTargetDependency */,
+			);
+			name = UnivMemoryAppTests;
+			productName = UnivMemoryAppTests;
+			productReference = 09B4436F25A44952005114BA /* UnivMemoryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09B4437925A44952005114BA /* UnivMemoryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B4438925A44952005114BA /* Build configuration list for PBXNativeTarget "UnivMemoryAppUITests" */;
+			buildPhases = (
+				09B4437625A44952005114BA /* Sources */,
+				09B4437725A44952005114BA /* Frameworks */,
+				09B4437825A44952005114BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B4437C25A44952005114BA /* PBXTargetDependency */,
+			);
+			name = UnivMemoryAppUITests;
+			productName = UnivMemoryAppUITests;
+			productReference = 09B4437A25A44952005114BA /* UnivMemoryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B4434E25A44950005114BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					09B4435525A44950005114BA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					09B4436E25A44952005114BA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 09B4435525A44950005114BA;
+					};
+					09B4437925A44952005114BA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 09B4435525A44950005114BA;
+					};
+				};
+			};
+			buildConfigurationList = 09B4435125A44950005114BA /* Build configuration list for PBXProject "UnivMemoryApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09B4434D25A44950005114BA;
+			productRefGroup = 09B4435725A44950005114BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B4435525A44950005114BA /* UnivMemoryApp */,
+				09B4436E25A44952005114BA /* UnivMemoryAppTests */,
+				09B4437925A44952005114BA /* UnivMemoryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B4435425A44950005114BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B4436925A44952005114BA /* LaunchScreen.storyboard in Resources */,
+				09B4436625A44952005114BA /* Assets.xcassets in Resources */,
+				09B4436125A44950005114BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B4436D25A44952005114BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B4437825A44952005114BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B4435225A44950005114BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B4435E25A44950005114BA /* ViewController.swift in Sources */,
+				09B4435A25A44950005114BA /* AppDelegate.swift in Sources */,
+				09B4436425A44950005114BA /* UnivMemoryApp.xcdatamodeld in Sources */,
+				09B4435C25A44950005114BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B4436B25A44952005114BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B4437425A44952005114BA /* UnivMemoryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B4437625A44952005114BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B4437F25A44952005114BA /* UnivMemoryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09B4437125A44952005114BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09B4435525A44950005114BA /* UnivMemoryApp */;
+			targetProxy = 09B4437025A44952005114BA /* PBXContainerItemProxy */;
+		};
+		09B4437C25A44952005114BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09B4435525A44950005114BA /* UnivMemoryApp */;
+			targetProxy = 09B4437B25A44952005114BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09B4435F25A44950005114BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B4436025A44950005114BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09B4436725A44952005114BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B4436825A44952005114BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09B4438125A44952005114BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09B4438225A44952005114BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B4438425A44952005114BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NRT6H3C5H;
+				INFOPLIST_FILE = UnivMemoryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billbill..UnivMemoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09B4438525A44952005114BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NRT6H3C5H;
+				INFOPLIST_FILE = UnivMemoryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billbill..UnivMemoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09B4438725A44952005114BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NRT6H3C5H;
+				INFOPLIST_FILE = UnivMemoryAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billbill..UnivMemoryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnivMemoryApp.app/UnivMemoryApp";
+			};
+			name = Debug;
+		};
+		09B4438825A44952005114BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NRT6H3C5H;
+				INFOPLIST_FILE = UnivMemoryAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billbill..UnivMemoryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnivMemoryApp.app/UnivMemoryApp";
+			};
+			name = Release;
+		};
+		09B4438A25A44952005114BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NRT6H3C5H;
+				INFOPLIST_FILE = UnivMemoryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billbill..UnivMemoryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnivMemoryApp;
+			};
+			name = Debug;
+		};
+		09B4438B25A44952005114BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NRT6H3C5H;
+				INFOPLIST_FILE = UnivMemoryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billbill..UnivMemoryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnivMemoryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B4435125A44950005114BA /* Build configuration list for PBXProject "UnivMemoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B4438125A44952005114BA /* Debug */,
+				09B4438225A44952005114BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B4438325A44952005114BA /* Build configuration list for PBXNativeTarget "UnivMemoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B4438425A44952005114BA /* Debug */,
+				09B4438525A44952005114BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B4438625A44952005114BA /* Build configuration list for PBXNativeTarget "UnivMemoryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B4438725A44952005114BA /* Debug */,
+				09B4438825A44952005114BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B4438925A44952005114BA /* Build configuration list for PBXNativeTarget "UnivMemoryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B4438A25A44952005114BA /* Debug */,
+				09B4438B25A44952005114BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09B4436225A44950005114BA /* UnivMemoryApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09B4436325A44950005114BA /* UnivMemoryApp.xcdatamodel */,
+			);
+			currentVersion = 09B4436325A44950005114BA /* UnivMemoryApp.xcdatamodel */;
+			path = UnivMemoryApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09B4434E25A44950005114BA /* Project object */;
+}
